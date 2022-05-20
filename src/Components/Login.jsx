@@ -24,7 +24,7 @@ export const Login=()=>{
   const [name,setname]=useState("")
   const [password,setpassword]=useState("")
   const navigate=useNavigate()
-
+let a=0
 function storelocaldata()
 {
 localStorage.setItem("userdetail",JSON.stringify({name,password}))
